@@ -1,0 +1,14 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<div class="container">
+   <h3 id="headline">Great Work Everyone!. Lets take a Break!</h1>
+   <div id="countdown">
+      <meta name="duration" content={{ .Get 0 }}></meta>
+      <script src="/js/countdown.js"></script>
+     <ul>
+       <li-timer><span id="days"></span>days</li-timer>
+       <li-timer><span id="hours"></span>Hours</li-timer>
+       <li-timer><span id="minutes"></span>Minutes</li-timer>
+       <li-timer><span id="seconds"></span>Seconds</li-timer>
+     </ul>
+   </div>
+  </div>
