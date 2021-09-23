@@ -1,6 +1,6 @@
-# hugo-countdown-shotcode
+# hugo-countdown-shortcode
 Javascript Countdown timer shortcode for HUGO generated sites.
-
+Timer will display an alternate END message and hide the countdown when it reaches 0
 
 ### Installation
 Simply copy the shortcode and JS into the respective HUGO folders and your done. Im using the Learn theme so the files are relative to that theme. 
@@ -23,5 +23,5 @@ The default end message displayed can also be updated by modifying the `countdow
 
 #### TODO
 + Handle exceptions e.g (non integer values)
-+ Extend the shortcode parameters to allow passing start and end greeting to overrides to the defaults. 
++ Extend the shortcode parameters to allow passing start and end message as an override to the hard coded defaults. 
 
