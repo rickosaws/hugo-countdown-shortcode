@@ -8,7 +8,7 @@ Simply copy the shortcode and JS into the respective HUGO folders and your done.
 ### Usage
 The Shortcode uses the {{ countdown `int`}} short code followed by an  INTEGER value representing the mins to countdown from.
 
-```e.g {{ countdown 15 }} for a 15min Countdown.```
+e.g ```{{ countdown 15 }}``` for a 15min Countdown.
 
 To use simply add the shortcode {{ countdown 15 }} in your page. 
 
