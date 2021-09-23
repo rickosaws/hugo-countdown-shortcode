@@ -1,6 +1,10 @@
 # hugo-countdown-shortcode
 Javascript Countdown timer shortcode for HUGO generated sites.
-Timer will display an alternate END message and hide the countdown when it reaches 0
+We create alot of workshop content with HUGO, and managing breaks is currently a little clunky. This shortcode adds a Countdonw Timer to your page allowing you to present something back to the attendees. 
+
+The Countdown timer contains 2 Messages (Start/End) which can be cusrtomised and will hide the countdown elements when it reaches 0.
+
+```NOTE: Disabling Live Reload will prevent an issue where the timer may accidentally reset in certain circumstances``` 
 
 ### Installation
 Simply copy the shortcode and JS into the respective HUGO folders and your done. Im using the Learn theme so the files are relative to that theme. 
