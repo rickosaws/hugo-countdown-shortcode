@@ -23,6 +23,5 @@ The default end message displayed can also be updated by modifying the `countdow
 
 #### TODO
 + Handle exceptions e.g (non integer values)
-+ Extend the shortcode parameters to allow passing start and end greeting to overrides to the defaults.
-+ 
++ Extend the shortcode parameters to allow passing start and end greeting to overrides to the defaults. 
 
